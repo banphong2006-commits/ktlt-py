@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-26 01:42:54 CH"/>
+        <attribute name="created" value="QURNSU47TVNJOzIwMjUtMTEtMjY7MDE6MzM6MzYgQ0g7MTg1NQ=="/>
+        <attribute name="edited" value="QURNSU47TVNJOzIwMjUtMTEtMjY7MDE6NDI6NTQgQ0g7MTsxOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;sinh vi&#234;n L&#234; V&#226;n Phong&quot;" newline="True"/>
+            <output expression="&quot;MSV 245752021610003&quot;" newline="True"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;c&#7841;nh h&#236;nh tam gi&#225;c l&#224;&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <output expression="&quot;Chi&#7873;u cao tam gi&#225;c l&#224;&quot;" newline="True"/>
+            <input variable="h"/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="1/2*(a*h)"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c l&#224;&quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
